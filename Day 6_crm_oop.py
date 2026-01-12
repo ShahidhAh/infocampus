@@ -94,9 +94,10 @@ while True:
     elif choice == 5:
         crm.delete_customer()
     elif choice == 6:
-        crm.count_status()
+        crm.count_by_status()
     elif choice == 7:
-        print("Exiting CRM System...")
+        print("Exit...")
         break
     else:
+
         print("Invalid choice! Try again.")
